@@ -22,6 +22,13 @@
 - [React Navigation v5]()https://reactnavigation.org/
 - [Axios](https://github.com/axios/axios)
 
+## :heavy_check_mark: Resultado
+
+<h4 align="center">
+    <img alt="Home" title="#home" width="300px" src=".github/Home.jpeg" />
+    <img alt="Detail" title="#detail" width="300px" src=".github/Detail.jpeg" />
+</h4>
+
 ## :fire: Como usar
 
 - Clone esse repositório: `git clone https://github.com/vitorserrano/movies-details.git`
