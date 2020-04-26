@@ -24,12 +24,6 @@ const styles = StyleSheet.create({
         fontSize: 16,
         flexDirection: "row",
     },
-
-    rating: {
-        marginTop: 8,
-        color: 'yellow',
-        fontSize: 12,
-    }
 });
 
 export default styles;

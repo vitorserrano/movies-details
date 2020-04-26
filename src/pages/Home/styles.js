@@ -6,7 +6,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 30,
     paddingTop: Constants.statusBarHeight + 20,
-    // backgroundColor: "#090a1c",
     backgroundColor: "#fff",
   },
 
@@ -15,11 +14,14 @@ const styles = StyleSheet.create({
       alignItems: 'center',
   }, 
 
+  headerTextBold: {
+    fontSize: 20,
+},
+
   headerText: {
-      fontSize: 22,
-      fontWeight: 'bold',
-      marginLeft: 10,
+      fontSize: 20,
       color: '#333',
+      fontWeight: '100',
   },
 
   category: {

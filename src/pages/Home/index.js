@@ -2,12 +2,10 @@ import "react-native-gesture-handler";
 import React, { useState, useEffect } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { View, FlatList, Text, Image } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
 
 import RowMovies from "../../components/RowMovies";
 
 import styles from "./styles";
-import logoImg from '../../assets/logo.png';
 
 import api from "../../services/api";
 
@@ -38,17 +36,8 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <View style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: '#F50057',
-            borderRadius: 50,
-            width: 50,
-            height: 50,
-        }}>
-            <AntDesign name="videocamera" size={30} color="#FFF" />
-        </View>
-        <Text style={styles.headerText}>Movies Details</Text>
+        <Text style={styles.headerTextBold}>Movies </Text>
+        <Text style={styles.headerText}>Details</Text>
       </View>
 
       <Text style={styles.category}>Recents</Text>
